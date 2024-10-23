@@ -1,0 +1,8 @@
+modules:
+  default:
+    user: "root"
+    password: ""
+#    private_key_path: "C:\\Users\\11312\\.ssh\\id_rsa"
+    collectors:
+      - smart:
+          devs: "/dev/nvme0n1"
